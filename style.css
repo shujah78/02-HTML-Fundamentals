@@ -5,10 +5,14 @@ h4,
 p,
 li {
   font-family: sans-serif;
+  color: #444;
 }
-
+h1,
+h2,
+h3 {
+  color: #1098ad;
+}
 h1 {
-  color: blue;
   font-size: 26px;
 
   text-transform: uppercase;
@@ -57,4 +61,27 @@ li {
 }
 .related {
   list-style: none;
+}
+.main-header {
+  background-color: #f7f7f7;
+}
+aside {
+  background-color: #f7f7f7;
+  border-top: 5px solid #1098ad;
+  border-bottom: 5px solid #1098ad;
+}
+/* body {
+  background-color: beige;
+} */
+li:first-child /*pseudo classes are predefined that can be used in css for styling*/ {
+  font-weight: bold;
+}
+li:last-child {
+  font-style: italic;
+}
+/* li:nth-child(odd) {
+  color: red;
+} */
+article p:first-child/*it will not work because in article the first child is header not p so if its first child is p the only this style will be applied*/ {
+  color: red;
 }
