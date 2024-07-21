@@ -1,11 +1,10 @@
-h1,
-h2,
-h3,
-h4,
-p,
-li {
+/* *{
+	border-top:10px solid #1098ad;
+} used to apply this on every thing in body but have low priority*/
+body {
   font-family: sans-serif;
   color: #444;
+  border-top: 10px solid #1098ad;
 }
 h1,
 h2,
@@ -84,4 +83,20 @@ li:last-child {
 } */
 article p:first-child/*it will not work because in article the first child is header not p so if its first child is p the only this style will be applied*/ {
   color: red;
+}
+a:link {
+  color: #1098ad;
+  text-decoration: none;
+}
+a:visited {
+  color: #1098ad;
+}
+a:hover {
+  color: orangered;
+  font-weight: bold;
+  text-decoration: underline orangered;
+}
+a:active {
+  background-color: #444;
+  font-style: italic;
 }
