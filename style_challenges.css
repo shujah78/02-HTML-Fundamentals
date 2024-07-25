@@ -1,6 +1,8 @@
 body {
   border: 5px solid black;
   font-weight: bold;
+
+  font-family: sans-serif;
 }
 header {
   text-align: center;
@@ -9,26 +11,34 @@ header {
 div p aside {
   color: rgba(0, 0, 0, 0);
 }
-#info:hover {
+#info:hover,
+#info:active {
   text-decoration: none;
 }
 #button {
   background-color: black;
   color: white;
-  font-size: medium;
+  font-size: 20px;
+  cursor: pointer;
+  border: none;
 }
 #button:hover {
   background-color: whitesmoke;
   color: black;
-  border: none;
 }
 h4 {
   font-size: large;
   font-weight: bolder;
+  text-transform: uppercase;
 }
 aside {
   color: gray;
+  font-size: 12px;
+  text-transform: uppercase;
 }
 li {
   list-style: square;
+}
+strong {
+  font-size: 22px;
 }
