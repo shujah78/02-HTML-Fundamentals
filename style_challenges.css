@@ -1,12 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  word-spacing: normal;
+}
 body {
-  border: 5px solid black;
   font-weight: bold;
-
   font-family: sans-serif;
+  width: 825px;
+  margin: 50px auto;
+}
+.container {
+  border: 5px solid black;
+  width: 800px;
+  margin: 20px 20px;
 }
 header {
   text-align: center;
   background: rgb(230, 228, 228);
+  text-transform: uppercase;
+
+  padding: 5px;
 }
 div p aside {
   color: rgba(0, 0, 0, 0);
@@ -20,7 +33,9 @@ div p aside {
   color: white;
   font-size: 20px;
   cursor: pointer;
-  border: none;
+  border-top: 5px solid black;
+  padding: 5px 100px;
+  width: 100%;
 }
 #button:hover {
   background-color: whitesmoke;
@@ -31,13 +46,23 @@ h4 {
   font-weight: bolder;
   text-transform: uppercase;
 }
+h2 {
+  padding: 10px 10px;
+}
 aside {
   color: gray;
   font-size: 12px;
   text-transform: uppercase;
 }
+.product_details {
+  margin: 0;
+}
+ul {
+  padding: 20px 20px;
+}
 li {
   list-style: square;
+  padding: 5px;
 }
 strong {
   font-size: 22px;
